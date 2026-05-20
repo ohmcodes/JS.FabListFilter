@@ -1,4 +1,4 @@
-# FabOwnedFilter
+# Fab List Filter
 
 Chrome/Edge extension for fab.com that helps manage your library by removing "Saved in My Library" items and auto-claiming listings.
 
@@ -24,13 +24,13 @@ Chrome/Edge extension for fab.com that helps manage your library by removing "Sa
 1. Download or clone this repository
 2. Open Chrome/Edge and go to `chrome://extensions/` (or `edge://extensions/`)
 3. Enable "Developer mode" (toggle in top-right corner)
-4. Click "Load unpacked" and select the FabOwnedFilter folder
+4. Click "Load unpacked" and select the Fab List Filter folder
 5. The extension will appear in your toolbar
 
 ## 📖 How to Use
 
 1. Visit [fab.com](https://www.fab.com/) or [www.fab.com](https://www.fab.com/)
-2. Click the FabOwnedFilter extension icon in your toolbar
+2. Click the Fab List Filter extension icon in your toolbar
 3. Use the buttons:
    - **Remove Now** - Start removing "Saved in My Library" items
    - **Stop Removing** - Stop the removal process
@@ -49,7 +49,7 @@ Chrome/Edge extension for fab.com that helps manage your library by removing "Sa
 
 If you find this extension helpful, please star this repository on GitHub!
 
-[![Star on GitHub](https://img.shields.io/github/stars/yourusername/FabOwnedFilter?style=social)](https://github.com/yourusername/FabOwnedFilter)
+[![Star on GitHub](https://img.shields.io/github/stars/ohmcodes/JS.FabListFilter?style=social)](https://github.com/ohmcodes/JS.FabListFilter)
 
 ## 📝 License
 
