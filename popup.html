@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Fab List Filter</title>
+    <style>
+      body{font-family:Arial,Helvetica,sans-serif;padding:12px;width:280px}
+      label{display:flex;align-items:center;gap:8px}
+      button{margin-top:8px;padding:6px 8px;width:100%}
+      .info{margin:10px 0;padding:8px;background:#f0f0f0;border-radius:4px;font-size:12px}
+      .info h3{margin:0 0 6px 0;font-size:13px}
+      .info ul{margin:4px 0;padding-left:18px}
+      .info li{margin:2px 0}
+      .counts{display:flex;justify-content:space-between;margin:8px 0;font-size:12px;font-weight:bold}
+      .counts span{padding:4px 8px;background:#e8f5e9;border-radius:3px}
+      .github{margin-top:10px;text-align:center;font-size:11px}
+      .github a{color:#0366d6;text-decoration:none}
+    </style>
+  </head>
+  <body>
+    <div class="info">
+      <h3>Fab List Filter</h3>
+      <ul>
+        <li><b>Remove Now:</b> Auto-scroll & remove "Saved in My Library" items</li>
+        <li><b>Auto Claim:</b> Hover listings & claim to library</li>
+      </ul>
+    </div>
+
+    <div class="counts">
+      <span>Removed: <span id="removedCount">0</span></span>
+      <span>Claimed: <span id="claimedCount">0</span></span>
+    </div>
+
+    <button id="removeNow">Remove Now</button>
+    <button id="stopRemoving" disabled>Stop Removing</button>
+    <button id="cartClick">Auto Claim</button>
+    <button id="stopClaiming" disabled>Stop Auto Claiming</button>
+    <button id="resetCounts">Reset Counts</button>
+
+    <div class="github">
+      ⭐ <a href="https://github.com/yourusername/FabOwnedFilter" target="_blank">Star on GitHub</a> to support!
+    </div>
+    
+    <script src="popup.js"></script>
+  </body>
+</html>

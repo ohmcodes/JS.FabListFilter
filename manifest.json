@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Fab List Filter",
+  "version": "1.0",
+  "description": "Manage your Fab.com library - remove saved items and auto-claim listings with live statistics.",
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "host_permissions": ["https://www.fab.com/*", "https://fab.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.fab.com/*", "https://fab.com/*"],
+      "js": ["content-script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+  ,
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "FabListFilter"
+  }
+}
