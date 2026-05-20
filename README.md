@@ -2,6 +2,8 @@
 
 Chrome/Edge extension for fab.com that helps manage your library by removing "Saved in My Library" items and auto-claiming listings.
 
+### Video https://www.youtube.com/watch?v=tPNpd1gplB8
+
 ## ✨ Features
 
 ### 🗑️ Remove Saved Items
